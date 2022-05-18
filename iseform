@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<header>
+<body>
+    
+    <div class="nav reg" >
+        <img src="logo.png" alt="logo" id="logo"> 
+      <a href="#">Home</a>
+      <a href="#abtus">About us</a>
+      <a href="reg.html">Registration</a>
+      <a href="commitee.html">Commitee</a>
+      <a href="#cntus">Contact us</a>
+  </div>
+  <hr color="black">
+  <div class="main-cnt"> 
+   
+    <h1 align="center" >ISE CLUB</h1>
+      
+        <h3>member name :&ensp;<span><input type="text" placeholder="enter your name"></span> </h3>
+       <h3>designation:&ensp;<span> <input list="desi" > </span></h3>
+      
+        <datalist id="desi"  >
+        <option value="manager">manager</option>
+        <option value="assistent">assistent</option>
+        <option value="proffeser">proffeser</option>
+        </datalist>
+        <h3>gender:<span> <input type="radio" name="gen">male
+        <input type="radio" name="gen">female</span></h3>
+       
+        <h3>date of birth:&ensp;<span><input type="date"></span></h3>
+        
+        <h3>phone number:&ensp; <span><input type="phone"></span></h3>
+        
+        <h3>address:&ensp;<span><input type="text" width="15%" ></span></h3>
+        
+        <h3>email:&ensp;<span><input type="email"></span></h3>
+        
+        
+    
+     <input type="button" value="submit">
+
+
+     <br>
+     <br>
+    </div> 
+    <style>
+        hr{
+    background-color: #193d58;
+             
+        }
+    </style>
+    <hr color="black">
+    <div class="footer">
+        <h3>copyright 2022</h3>
+    </div>
+</body>
+</html>
+.nav{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.871); 
+   justify-content: center; 
+}
+.nav a{
+    margin:10px;
+    color:#2a6592;
+    padding-top:20px ;
+    text-decoration: none;
+    text-align: center;
+}
+#logo{
+    width:3em;
+    margin-right:25px;
+    
+}
+.nav a:hover
+{
+    color: #1a6aa7;
+}
+hr{
+    
+    height: 3px;
+}
+.info{
+     /* background-color: #193d58; */
+    color: rgb(193, 21, 21);
+    text-align: center;
+    height: 150px;
+    width: 80%;
+    border-color: #193d58;
+}
+.info p{
+    color:rgba(255, 255, 255, 0.871);
+}
+.sepre{
+width: 60%;
+color: #193d58;
+}
+.body_cnt{
+    background-color:#a4abb0;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ gap: 15px;
+}
+.footer{
+    text-align: end;
+    color: #2a6592;
+   
+}
+.main-cnt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color:#6aa6d4;
+
+    
+}
+ .reg
+ {
+     
+    
+ }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">Members Description</h1>
+<div>
+    <table border="1" cellpadding="2">
+        <tr>
+            <th>SL NO.</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Role</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Ram</td>
+            <td>professor</td>
+            <td>founder</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>sam</td>
+            <td>asst.professor</td>
+            <td>co-founder</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>bob</td>
+            <td>asst.professor</td>
+            <td>lecturer</td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav" >
+        <img src="logo.png" alt="logo" id="logo"> 
+      <a href="#">Home</a>
+      <a href="#abtus">About us</a>
+      <a href="reg.html">Registration</a>
+      <a href="commitee">Commitee</a>
+      <a href="#cntus">Contact us</a>
+  </div>
+  <hr color="black">
+  <div class="body_cnt"> 
+  <div class="info"> 
+  <h1 align="center">Ise club</h1>
+  <p>mgjuf colony noteven houdhue juehe kenbjs suehr rusre jeuenn hrwksr hrhhfn, jffhrwj nfjneh fbuhejke siheijri.</p>
+  </div>
+  <hr class="sepre" color="#193d58">
+  <div class="info">
+      <h1 id="abtus">About us</h1>
+      <p>mgjuf colony noteven houdhue juehe kenbjs suehr rusre jeuenn hrwksr hrhhfn, jffhrwj nfjneh fbuhejke siheijri.</p>
+  </div>
+  <hr class="sepre" color="#193d58">
+  <div class="info">
+      <h1>Maps</h1>
+      <br><br><br>
+  </div>
+  <hr class="sepre" color="#193d58">
+  <div class="info">
+      <h1 id="cntus">Contact us</h1>
+      <p>mgjuf colony noteven houdhue juehe kenbjs suehr rusre jeuenn hrwksr hrhhfn, jffhrwj nfjneh fbuhejke siheijri.</p>
+  </div>
+  </div>
+  <hr color="black">
+  <div class="footer">
+      <h3>copyright 2022</h3>
+  </div>
+</body>
+</html>
